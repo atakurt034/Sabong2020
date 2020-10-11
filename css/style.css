@@ -8,9 +8,9 @@
     background: #ea5455 no-repeat center/cover;
     width: 100vw;
     height: 100%;
-    margin: 0;
     overflow-y: auto;
     position: fixed;
+    margin: 0;
 }
 
 .slide-rooster {
@@ -36,9 +36,8 @@
     line-height: 1.5;
     text-align: center;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    padding: 2rem 1rem 0 1rem;
 }
 
 .navbar-brand {
@@ -47,8 +46,8 @@
 
 .btn-shop {
     border: #212529 solid 1px;
-    margin: auto;
     font-weight: 600;
+    margin-top: 4rem;
 }
 
 .btn-shop:hover {
@@ -59,6 +58,36 @@
 /* explore */
 .explore {
     background: #ea5455;
-    width: 100vw;
     height: 100%;
+}
+.container-edit {
+    padding: 2rem;
+    margin: auto;
+}
+/* checked stars */
+.checked {
+    color: #fff000;
+}
+.stars {
+    position: relative;
+    text-align: right;
+}
+
+/* btn basket */
+.btn-basket:hover{
+border: #000 solid 1px;
+color: #000;
+}
+.btn-basket{
+    color: #fff;
+    border: #fff solid 1px;
+}
+.btn-search:hover {
+    background: #198754;
+    border: #000 solid 1px;
+}
+.basket {
+    position: absolute;
+    right: 67px;
+    top: 10px;
 }

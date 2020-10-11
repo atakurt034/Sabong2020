@@ -1,0 +1,13 @@
+.checked {
+    color: #fff000;
+}
+.stars {
+    grid-area: b;
+    position: relative;
+    text-align: right;
+}
+.footer-text{
+    display: grid;
+    grid: "a b" auto
+        /auto
+}
