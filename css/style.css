@@ -1,3 +1,7 @@
+:root {
+    --background-color: #ea5455;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 
 .welcome {
-    background: #ea5455 no-repeat center/cover;
+    background: var(--background-color);
     width: 100vw;
     height: 100%;
     overflow-y: auto;
@@ -57,7 +61,7 @@
 
 /* explore */
 .explore {
-    background: #ea5455;
+    background: var(--background-color);
     height: 100%;
 }
 .container-edit {
@@ -90,4 +94,16 @@ color: #000;
     position: absolute;
     right: 67px;
     top: 10px;
+}
+#loader {
+    background: var(--background-color);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
